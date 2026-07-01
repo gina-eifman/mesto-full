@@ -125,10 +125,8 @@ function App() {
   };
 
   function handleUpdateUser(data) {
-    console.log(data)
     api.editProfileInfo(data, localStorage.jwt)
     .then(res => {
-      console.log(res)
       setCurrentUser({
         name: res.name,
         about: res.about,

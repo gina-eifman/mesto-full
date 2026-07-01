@@ -30,7 +30,6 @@ class Api {
     }  
 
     editProfileInfo(data, token) {
-        console.log(data.name, data.about)
         return fetch(`${this._baseUrl}/users/me`, {
             method: 'PATCH',
             headers: {

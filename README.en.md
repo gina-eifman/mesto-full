@@ -2,7 +2,7 @@
 
 > **Status:** Educational project from Yandex.Praktikum "Web Developer" course.  
 
-**Demo:** 
+**Demo:** [https://mesto-gray.vercel.app] - frontend; [https://mesto-95yy.onrender.com] - backend.
 
 ---
 
