@@ -24,7 +24,10 @@ app.get('/crash-test', () => {
   }, 0);
 });
 app.use(router);
-mongoose.connect('mongodb://127.0.0.1:27017/mestodb', {
+const dns = require('dns');
+dns.setServers(['1.1.1.1', '8.8.8.8']);
+const { MONGO_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env
+mongoose.connect(MONGO_URL, {
   useNewUrlParser: true,
 });
 app.use(errorLogger);

@@ -15,6 +15,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 100%;
     content: '';
     background-image: url(./../../../../images/vector.svg);
     background-color: rgba(0, 0, 0, .8);

@@ -116,5 +116,5 @@ class Api {
     }
 }
 export const api = new Api({
-    baseUrl: 'https://api.mesto.gina.nomoredomainsrocks.ru'
+    baseUrl: 'https://mesto-95yy.onrender.com'
 })
