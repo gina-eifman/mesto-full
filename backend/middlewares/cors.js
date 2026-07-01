@@ -1,5 +1,5 @@
 const allowedCors = [
-  'https://mesto-gray.vercel.app/',
+  'https://mesto-gray.vercel.app',
   'http://localhost:3001'
 ];
 
